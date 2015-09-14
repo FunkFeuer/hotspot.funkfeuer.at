@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+
+{% block ribbon %}
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            {% block ribbon_images %}
+            <a href="http://funkfeuer.at" target="_blank"><img class="pure-img-responsive" alt="" src="/static/img/logo_square_char_scaled.png"></a>
+            {% endblock %}
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-3">
+            {% block ribbon_content %}
+            <h2 class="content-head content-head-ribbon">{{ _('WELCOME_MSG') }}</h2>
+            <p>
+                {{ _('WELCOME_TEASER_SPLASH') }}
+            </p>
+            {% endblock %}
+        </div>
+    </div>
+{% endblock %}
+    
+{% block content %}
+    <div class="content">
+        {% block content_tos %}
+        <h2 class="content-head is-center">{{ _('HEAD_TOS') }}</h2>
+        <!-- TODO
+        <div class="pure-g">
+            <div class="l-box pure-u-1">
+                <p>
+                    Diese Nutzungsbestimmungen regeln die Inanspruchnahme des Netzwerks durch 
+                    die Teilnehmer, welche sich mittels Computer, Handheld o.ä (Endgerät)
+                    mit dem Netzwerk verbinden.
+                </p>
+            </div>
+        </div>-->
+        
+        
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-chevron-right"></i>
+                    {{ _('TOS1_HEAD') }}
+                </h3>
+                <p>
+                    {{ _('TOS1_TEXT') }}
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-chevron-right"></i>
+                    {{ _('TOS2_HEAD') }}
+                </h3>
+                <p>
+                    {{ _('TOS2_TEXT') }}
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-chevron-right"></i>
+                    {{ _('TOS3_HEAD') }}
+                </h3>
+                <p>
+                    {{ _('TOS3_TEXT') }}
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-chevron-right"></i>
+                    {{ _('TOS4_HEAD') }}
+                </h3>
+                <p>
+                    {{ _('TOS4_TEXT') }}
+                </p>
+            </div>
+        </div>
+        {% endblock %}
+        
+        {% block content_accept %}
+        <div class="pure-g is-center">
+            <div class="l-box pure-u-1 pure-u-md-1-2">
+                <p>
+                    {{ _('ACCEPT_MSG', hours=config.get('TIME_LIMIT')/60) }}
+                </p>
+            </div>
+        </div>
+        
+        <div class="pure-g is-center">
+            <div class="l-box pure-u-1 pure-u-md-1-1">
+                <p>
+                    <form action="{{ request.url }}" method="post">
+                        <button name="accept" value="1" class="pure-button pure-button-primary">{{ _('ACCEPT') }}</button>
+                    </form>
+                </p>
+            </div>
+        </div>
+        
+        <div class="pure-g is-center">
+            <div class="l-box pure-u-1 pure-u-md-4-5">
+                <p>
+                    {{ _('ABOUT_US_SHORT') }}
+                </p>
+            </div>
+        </div>
+        <hr />
+        {% endblock %}
+    </div>
+{% endblock %}
+    
+{% block about %}
+    <div class="content">
+        <div class="pure-g">
+            <div class="l-box pure-u-1">
+            <h2 class="content-head is-center">{{ _('SLOGAN') }}</h2>
+                <p>
+                    {{ _('ABOUT_US') }}
+                </p>
+            </div>
+        </div>
+        <div class="pure-g">
+        <!--
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text" placeholder="Your Name">
+
+
+                        <label for="email">Your Email</label>
+                        <input id="email" type="email" placeholder="Your Email">
+
+                        <label for="password">Your Password</label>
+                        <input id="password" type="password" placeholder="Your Password">
+
+                        <button type="submit" class="pure-button">Sign Up</button>
+                    </fieldset>
+                </form>
+            </div> -->
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>{{ _('CONTACT_US_HEAD') }}</h4>
+                <p>
+                    {{ _('CONTACT_US_TEXT') }}
+                </p>
+
+                <h4>{{ _('MORE_INFORMATION_HEAD') }}</h4>
+                <p>
+                    {{ _('MORE_INFORMATION_TEXT') }}
+                </p>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

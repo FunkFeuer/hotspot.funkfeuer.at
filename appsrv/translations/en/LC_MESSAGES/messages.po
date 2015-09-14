@@ -1,0 +1,178 @@
+# German translations for hotspot.funkfeuer.at.
+# Copyright (C) 2015 FunkFeuer.at
+# This file is distributed under the same license as the  project.
+# Clemens Hopfer <datacop at wireloss dot net>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 06:33+0200\n"
+"PO-Revision-Date: 2015-09-07 05:28+0200\n"
+"Last-Translator: Clemens Hopfer <datacop at wireloss dot net>\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.0\n"
+
+#: appsrv/templates/base.html:13 appsrv/templates/base.html:25
+msgid "HTML_TITLE"
+msgstr "FunkFeuer Open Hotspot"
+
+#: appsrv/templates/base.html:50
+msgid "MENU_HEADER"
+msgstr "FunkFeuer"
+
+#: appsrv/templates/index.html:12 appsrv/templates/default/splash.html:12
+msgid "WELCOME_MSG"
+msgstr "Welcome to this open WIFI AccessPoint, provided by FunkFeuer"
+
+#: appsrv/templates/index.html:14
+msgid "WELCOME_TEASER_INDEX"
+msgstr ""
+"Dieser Internetzugang wird von freiwilligen Mitglieder des Vereins "
+"Funkfeuer Wien zur Verfügung gestellt."
+
+#: appsrv/templates/index.html:25 appsrv/templates/default/splash.html:112
+#: appsrv/templates/ixp8bfro/splash.html:112
+msgid "SLOGAN"
+msgstr "Don't log into the net - be the net!"
+
+#: appsrv/templates/index.html:27 appsrv/templates/default/splash.html:114
+#: appsrv/templates/ixp8bfro/splash.html:114
+msgid "ABOUT_US"
+msgstr ""
+"Wir haben uns zur Aufgabe gemacht, freien Informationszugang ohne "
+"kommerzielle Interessen und Anbieter umzusetzen. Dadurch werden die "
+"TeilnehmerInnen direkt Teil unseres Netzes, und formen dieses aktiv mit. "
+"Die Devise <i>\"Wir sind das Netz\"</i>, verdeutlicht, dass die wichtige "
+"Aufgabe der Weitergabe der Kompetenz zur Informationsverbreitung und "
+"Verarbeitung direkt bei der Versorgung beginnt. Please note that we are "
+"not an internet service provider but an experimental community network."
+
+#: appsrv/templates/index.html:32 appsrv/templates/default/splash.html:24
+#: appsrv/templates/ixp8bfro/splash.html:25
+msgid "HEAD_TOS"
+msgstr "Usage Agreement"
+
+#: appsrv/templates/index.html:49 appsrv/templates/default/splash.html:41
+#: appsrv/templates/ixp8bfro/splash.html:41
+msgid "TOS1_HEAD"
+msgstr "Content"
+
+#: appsrv/templates/index.html:52 appsrv/templates/default/splash.html:44
+#: appsrv/templates/ixp8bfro/splash.html:44
+msgid "TOS1_TEXT"
+msgstr ""
+"The participant agrees to not transfer content over the network which "
+"violates the law."
+
+#: appsrv/templates/index.html:58 appsrv/templates/default/splash.html:50
+#: appsrv/templates/ixp8bfro/splash.html:50
+msgid "TOS2_HEAD"
+msgstr "Usage"
+
+#: appsrv/templates/index.html:61 appsrv/templates/default/splash.html:53
+#: appsrv/templates/ixp8bfro/splash.html:53
+msgid "TOS2_TEXT"
+msgstr ""
+"The participant agrees to not use the network in any way which will harm "
+"the infrastructure, the network itself, its operators or other "
+"participants."
+
+#: appsrv/templates/index.html:67 appsrv/templates/default/splash.html:59
+#: appsrv/templates/ixp8bfro/splash.html:59
+msgid "TOS3_HEAD"
+msgstr "Liability"
+
+#: appsrv/templates/index.html:70 appsrv/templates/default/splash.html:62
+#: appsrv/templates/ixp8bfro/splash.html:62
+msgid "TOS3_TEXT"
+msgstr ""
+"The operator claims no liability for loss of data, unauthorized "
+"access/damage to devices, or financial losses that participants may "
+"suffer from the use of the network."
+
+#: appsrv/templates/index.html:76 appsrv/templates/default/splash.html:68
+#: appsrv/templates/ixp8bfro/splash.html:68
+msgid "TOS4_HEAD"
+msgstr "Safety"
+
+#: appsrv/templates/index.html:79 appsrv/templates/default/splash.html:71
+#: appsrv/templates/ixp8bfro/splash.html:71
+msgid "TOS4_TEXT"
+msgstr ""
+"The network, like the Internet, is unencrypted and open. Each participant"
+" is responsible for the safety of their own connections and devices."
+
+#: appsrv/templates/index.html:86 appsrv/templates/default/splash.html:140
+#: appsrv/templates/ixp8bfro/splash.html:140
+msgid "CONTACT_US_HEAD"
+msgstr "Help us"
+
+#: appsrv/templates/index.html:88 appsrv/templates/default/splash.html:142
+#: appsrv/templates/ixp8bfro/splash.html:142
+msgid "CONTACT_US_TEXT"
+msgstr ""
+"Become an active member of this community and help by operating your own "
+"node."
+
+#: appsrv/templates/index.html:91 appsrv/templates/default/splash.html:145
+#: appsrv/templates/ixp8bfro/splash.html:145
+msgid "MORE_INFORMATION_HEAD"
+msgstr "More information"
+
+#: appsrv/templates/index.html:93 appsrv/templates/default/splash.html:147
+#: appsrv/templates/ixp8bfro/splash.html:147
+msgid "MORE_INFORMATION_TEXT"
+msgstr ""
+"Find more information about our community at <a "
+"href='http://www.funkfeuer.at' target='_new'>FunkFeuer.at</a> "
+
+#: appsrv/templates/default/splash.html:14
+msgid "WELCOME_TEASER_SPLASH"
+msgstr ""
+"Dieser Internetzugang wird von freiwilligen Mitglieder des Vereins "
+"Funkfeuer Wien zur Verfügung gestellt."
+
+#: appsrv/templates/default/splash.html:81
+#: appsrv/templates/ixp8bfro/splash.html:81
+msgid "ACCEPT_MSG"
+msgstr ""
+"By accepting these rules you can use this network for %(hours)i hour(s). "
+"After this time you need to accept these rules again."
+
+#: appsrv/templates/default/splash.html:90
+#: appsrv/templates/ixp8bfro/splash.html:90
+msgid "ACCEPT"
+msgstr "Accept"
+
+#: appsrv/templates/default/splash.html:99
+#: appsrv/templates/ixp8bfro/splash.html:99
+msgid "ABOUT_US_SHORT"
+msgstr ""
+"FunkFeuer is a community based, experimental network.Access to the "
+"network is not guaranteed. It can be interrupted at any time without "
+"notice for any reason, for certain devices, and/or may be blocked for "
+"certain users."
+
+#: appsrv/templates/ixp8bfro/splash.html:13
+msgid "WELCOME_MSG_VKM"
+msgstr ""
+"Welcome to this open WIFI AccessPoint, provided by FunkFeuer and the "
+"Austrian Museum of Folk Life and Folk Art"
+
+#: appsrv/templates/ixp8bfro/splash.html:15
+msgid "WELCOME_TEASER_SPLASH_VKM"
+msgstr ""
+"The Austrian Museum of Folk Life and Folk Art and the community FunkFeuer"
+" Wien provide free internet access for all museum and park visitors."
+
+#~ msgid "TOS_ABOUT"
+#~ msgstr ""
+
+msgid "ACCEPTED_MSG"
+msgstr "continue to <a href='%(url)s'>%(url)s</a>"
+

@@ -1,0 +1,17 @@
+{% extends "ixp8bfro/splash.html" %}
+
+{% block wisp_html %}
+{% endblock %}
+
+{% block content_tos %}
+{% endblock %}
+
+{% block content_accept %}
+        <div class="pure-g is-center">
+            <div class="l-box pure-u-1">
+                <p>
+                    {{ _('ACCEPTED_MSG', url=request.args.get('url')) }}
+                </p>
+            </div>
+        </div>
+{% endblock %}

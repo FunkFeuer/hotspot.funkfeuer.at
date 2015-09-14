@@ -1,0 +1,179 @@
+# German translations for hotspot.funkfeuer.at.
+# Copyright (C) 2015 FunkFeuer.at
+# This file is distributed under the same license as the  project.
+# Clemens Hopfer <datacop at wireloss dot net>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 06:33+0200\n"
+"PO-Revision-Date: 2015-09-07 05:28+0200\n"
+"Last-Translator: Clemens Hopfer <datacop at wireloss dot net>\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.0\n"
+
+#: appsrv/templates/base.html:13 appsrv/templates/base.html:25
+msgid "HTML_TITLE"
+msgstr "FunkFeuer Open Hotspot"
+
+#: appsrv/templates/base.html:50
+msgid "MENU_HEADER"
+msgstr "FunkFeuer"
+
+#: appsrv/templates/index.html:12 appsrv/templates/default/splash.html:12
+msgid "WELCOME_MSG"
+msgstr "Willkommen im freien WLAN von FunkFeuer"
+
+#: appsrv/templates/index.html:14
+msgid "WELCOME_TEASER_INDEX"
+msgstr ""
+"Dieser Internetzugang wird von freiwilligen Mitglieder des Vereins "
+"Funkfeuer Wien zur Verfügung gestellt."
+
+#: appsrv/templates/index.html:25 appsrv/templates/default/splash.html:112
+#: appsrv/templates/ixp8bfro/splash.html:112
+msgid "SLOGAN"
+msgstr "Wir sind das Netz"
+
+#: appsrv/templates/index.html:27 appsrv/templates/default/splash.html:114
+#: appsrv/templates/ixp8bfro/splash.html:114
+msgid "ABOUT_US"
+msgstr ""
+"Wir haben uns zur Aufgabe gemacht, freien Informationszugang ohne "
+"kommerzielle Interessen und Anbieter umzusetzen. Dadurch werden die "
+"TeilnehmerInnen direkt Teil unseres Netzes, und formen dieses aktiv mit. "
+"Die Devise <i>\"Wir sind das Netz\"</i>, verdeutlicht, dass die wichtige "
+"Aufgabe der Weitergabe der Kompetenz zur Informationsverbreitung und "
+"Verarbeitung direkt bei der Versorgung beginnt. Bitte sei dir darüber "
+"bewusst, dass wir kein Internetanbieter sondern ein experimentelles "
+"Gemeinschaftsnetzwerk sind."
+
+#: appsrv/templates/index.html:32 appsrv/templates/default/splash.html:24
+#: appsrv/templates/ixp8bfro/splash.html:25
+msgid "HEAD_TOS"
+msgstr "Nutzungsbedingungen"
+
+#: appsrv/templates/index.html:49 appsrv/templates/default/splash.html:41
+#: appsrv/templates/ixp8bfro/splash.html:41
+msgid "TOS1_HEAD"
+msgstr "Inhalte"
+
+#: appsrv/templates/index.html:52 appsrv/templates/default/splash.html:44
+#: appsrv/templates/ixp8bfro/splash.html:44
+msgid "TOS1_TEXT"
+msgstr ""
+"Der Teilnehmer verpflichtet sich, keine Inhalte über das Netzwerk zu "
+"übertragen, welche gegen geltendes Recht verstoßen."
+
+#: appsrv/templates/index.html:58 appsrv/templates/default/splash.html:50
+#: appsrv/templates/ixp8bfro/splash.html:50
+msgid "TOS2_HEAD"
+msgstr "Benutzung"
+
+#: appsrv/templates/index.html:61 appsrv/templates/default/splash.html:53
+#: appsrv/templates/ixp8bfro/splash.html:53
+msgid "TOS2_TEXT"
+msgstr ""
+"Der Teilnehmer verpflichtet sich, das Netzwerk nicht in einer Weise zu "
+"beanspruchen, welche die Infrastruktur, das Netzwerk selbst, dessen "
+"Betreiber oder andere Teilnehmer beeinträchtigt."
+
+#: appsrv/templates/index.html:67 appsrv/templates/default/splash.html:59
+#: appsrv/templates/ixp8bfro/splash.html:59
+msgid "TOS3_HEAD"
+msgstr "Haftung"
+
+#: appsrv/templates/index.html:70 appsrv/templates/default/splash.html:62
+#: appsrv/templates/ixp8bfro/splash.html:62
+msgid "TOS3_TEXT"
+msgstr ""
+"Die Betreiber lehnen jede Haftung für Datenverlust, unbefugten Zugriff "
+"auf Endgeräte, Schäden an Endgeräten oder finanzielle Verluste, die ein "
+"Teilnehmer durch die Nutzung des Netzwerks erleidet ab."
+
+#: appsrv/templates/index.html:76 appsrv/templates/default/splash.html:68
+#: appsrv/templates/ixp8bfro/splash.html:68
+msgid "TOS4_HEAD"
+msgstr "Sicherheit"
+
+#: appsrv/templates/index.html:79 appsrv/templates/default/splash.html:71
+#: appsrv/templates/ixp8bfro/splash.html:71
+msgid "TOS4_TEXT"
+msgstr ""
+"Das Netzwerk ist, wie das Internet auch, unverschlüsselt und offen. Jeder"
+" Teilnehmer ist selbst für die Sicherheit seiner Verbindungen und seiner "
+"Endgeräte verantwortlich."
+
+#: appsrv/templates/index.html:86 appsrv/templates/default/splash.html:140
+#: appsrv/templates/ixp8bfro/splash.html:140
+msgid "CONTACT_US_HEAD"
+msgstr "Hilf mit"
+
+#: appsrv/templates/index.html:88 appsrv/templates/default/splash.html:142
+#: appsrv/templates/ixp8bfro/splash.html:142
+msgid "CONTACT_US_TEXT"
+msgstr ""
+"Werde ein aktives Mitglied unserer Community und hilf, indem du selber "
+"einen Knoten betreibst."
+
+#: appsrv/templates/index.html:91 appsrv/templates/default/splash.html:145
+#: appsrv/templates/ixp8bfro/splash.html:145
+msgid "MORE_INFORMATION_HEAD"
+msgstr "Mehr Information"
+
+#: appsrv/templates/index.html:93 appsrv/templates/default/splash.html:147
+#: appsrv/templates/ixp8bfro/splash.html:147
+msgid "MORE_INFORMATION_TEXT"
+msgstr ""
+"Mehr Information über unsere Community findest du unter <a "
+"href='http://www.funkfeuer.at' target='_new'>FunkFeuer.at</a> "
+
+#: appsrv/templates/default/splash.html:14
+msgid "WELCOME_TEASER_SPLASH"
+msgstr ""
+"Dieser Internetzugang wird von freiwilligen Mitglieder des Vereins "
+"Funkfeuer Wien zur Verfügung gestellt."
+
+#: appsrv/templates/default/splash.html:81
+#: appsrv/templates/ixp8bfro/splash.html:81
+msgid "ACCEPT_MSG"
+msgstr ""
+"Durch das Akzeptieren dieser Regeln kannst du unser Netzwerk für "
+"%(hours)i Stunden benutzen. Danach wirst du aufgefordert diese "
+"Bedingungen erneut zu akzeptieren."
+
+#: appsrv/templates/default/splash.html:90
+#: appsrv/templates/ixp8bfro/splash.html:90
+msgid "ACCEPT"
+msgstr "Akzeptieren"
+
+#: appsrv/templates/default/splash.html:99
+#: appsrv/templates/ixp8bfro/splash.html:99
+msgid "ABOUT_US_SHORT"
+msgstr ""
+"FunkFeuer ist ein experimentelles, von seinen Mitgliedern getragenes "
+"Netzwerk. Der Zugang zum Netzwerk wird nicht garantiert. Er kann "
+"jederzeit und ohne Angabe von Gründen unterbrochen oder für bestimmte "
+"Endgeräte und Teilnehmer gesperrt werden."
+
+#: appsrv/templates/ixp8bfro/splash.html:13
+msgid "WELCOME_MSG_VKM"
+msgstr "Willkommen im freien WLAN von FunkFeuer und Volkskundemuseum"
+
+#: appsrv/templates/ixp8bfro/splash.html:15
+msgid "WELCOME_TEASER_SPLASH_VKM"
+msgstr ""
+"Das Volkskundemuseum und der Verein Funkfeuer Wien stellen allen Museums-"
+" und Parkbesuchern freien Internetzugang zur Verfügung."
+
+#~ msgid "TOS_ABOUT"
+#~ msgstr ""
+
+msgid "ACCEPTED_MSG"
+msgstr "Weiter zu <a href='%(url)s'>%(url)s</a>"
+

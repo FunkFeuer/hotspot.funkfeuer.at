@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+{% block wisp_html %}
+<!--
+<?xml version='1.0' encoding='UTF-8'?>
+<WISPAccessGatewayParam
+        xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xsi:noNamespaceSchemaLocation='WISPAccessGatewayParam.xsd'>
+    <Redirect>
+        <MessageType>100</MessageType>
+    <ResponseCode>0</ResponseCode>
+    <AccessProcedure>1.0</AccessProcedure>
+    <LocationName>{{ _('HTML_TITLE') }}</LocationName>
+    <ReplyMessage></ReplyMessage>
+    <AccessLocation>FunkFeuer Splash</AccessLocation>
+    <LoginURL>{{ request.url }}</LoginURL>
+    <AbortLoginURL>{{ request.url }}&abort=true</AbortLoginURL>
+    </Redirect>
+</WISPAccessGatewayParam>
+-->
+{% endblock %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ _('HTML_TITLE') }}{% endblock %}</title>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pure/pure-min.css') }}">
+
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pure/grids-responsive-old-ie-min.css') }}">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pure/grids-responsive-min.css') }}">
+<!--<![endif]-->
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='font-awesome/css/font-awesome.css') }}">
+
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/splash-old-ie.css') }}">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/splash.css') }}">
+<!--<![endif]-->
+</head>
+<body>
+
+{% block headmenu %}
+<div class="header" style="display:none">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">{{ _('MENU_HEADER') }}</a>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Tour</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
+
+<div class="content-wrapper" style="top:0">
+    {% block ribbon %}
+    {% endblock %}
+    
+    {% block content %}
+    {% endblock %}
+    
+    {% block about %}
+    {% endblock %}
+    
+    {% block footer %} {#
+    <div class="footer l-box is-center">
+        {{ _('FOOTER_TEXT') }}
+    </div>#}
+    {% endblock %}
+</div>
+</body>
+</html>
