@@ -136,7 +136,7 @@ msgstr ""
 #: appsrv/templates/default/splash.html:14
 msgid "WELCOME_TEASER_SPLASH"
 msgstr ""
-"Dieser Internetzugang wird von freiwilligen Mitglieder des Vereins "
+"Dieser Internetzugang wird von freiwilligen Mitgliedern des Vereins "
 "Funkfeuer Wien zur Verfügung gestellt."
 
 #: appsrv/templates/default/splash.html:81
