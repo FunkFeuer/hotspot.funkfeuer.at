@@ -7,9 +7,6 @@ from appsrv import (app, cache)
 
 from unifi.controller import Controller
 
-# http://hotspot.funkfeuer.at/guest/s/ixp8bfro/?id=8c:3a:e3:18:50:d2&ap=04:18:d6:cc:92:e6&t=1441747159&url=http://routenplaner.vor.at/bin/query.exe/dnb?ld=std4.a&L=vs_vor&&ssid=fftest
-
-
 c = Controller(app.config.get('UNIFI_CTRL_URL', 'localhost'),
                app.config.get('UNIFI_CTRL_USER', 'root'),
                app.config.get('UNIFI_CTRL_PASSWORD', ''),
@@ -41,6 +38,10 @@ def guest_splash(site):
     templatepath = 'default'
     if request.method == 'POST':
         # TOS accepted
+
+        # make sure to consume POST data
+        data = request.data
+
         if isfile('%s/templates/%s/accepted.html' % (app.root_path, site)):
             templatepath = site
         
@@ -73,3 +74,5 @@ def check_mac(mac):
 
 def check_args(args):
     return check_mac(args.get('ap')) & check_mac(args.get('id'))
+
+
