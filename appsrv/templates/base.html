@@ -41,6 +41,8 @@
 <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/splash.css') }}">
 <!--<![endif]-->
+    {% block header_additional %}
+    {% endblock %}
 </head>
 <body>
 
